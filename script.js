@@ -24,9 +24,9 @@ console.log("Fizz divisible by 5=================")
         console.log(`Fizz Buzz:${c}`)
     }
  }
-//  console.log("! Not divisible by 3 and 5=================")
-//  for (let d = 0; d <= 100; d++){
-//     if (d % 3 !==0 && d % 5 !==0){
-//         console.log(`!${d}`)
-//     }
-//  }
+ console.log("! Not divisible by 3 and 5=================")
+ for (let d = 0; d <= 100; d++){
+    if (d % 3 !==0 && d % 5 !==0){
+        console.log(`!${d}`)
+    }
+ }
