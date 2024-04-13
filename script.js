@@ -6,11 +6,11 @@ for( b = 0; b <= 100; b++){
     console.log(b)
 }
 
-// console.log("Fizz divisible by 3=================")
-// for (let i = 0; i <= 100; i++){
-//     if (i % 3 === 0){
-//       console.log(`Fizz:${i}`)
-//     }}
+console.log("Fizz divisible by 3=================")
+for (let i = 0; i <= 100; i++){
+    if (i % 3 === 0){
+      console.log(`Fizz:${i}`)
+    }}
 
 // console.log("Fizz divisible by 3=================")
 //  for (let a = 0; a <= 100; a++){
