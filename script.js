@@ -12,12 +12,12 @@ for (let i = 0; i <= 100; i++){
       console.log(`Fizz:${i}`)
     }}
 
-// console.log("Fizz divisible by 3=================")
-//  for (let a = 0; a <= 100; a++){
-//     if (a % 5 === 0){
-//         console.log(`Buzz:${a}`)
-//     }
-//  }
+console.log("Fizz divisible by 5=================")
+ for (let a = 0; a <= 100; a++){
+    if (a % 5 === 0){
+        console.log(`Buzz:${a}`)
+    }
+ }
 //  console.log("Fizz Buzz divisible by 3 and 5=================")
 //  for (let c = 0; c <= 100; c++){
 //     if (c % 3 ==0 && c % 5 ==0){
