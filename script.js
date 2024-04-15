@@ -30,3 +30,29 @@ console.log("Fizz divisible by 5=================")
         console.log(`!${d}`)
     }
  }
+
+ console.log("Part 2:Prime Time =====================")
+ let start = 5
+ let end = 50
+ for (n = start; n < end; n++){
+    if (n % 2 !== 0 && n % 3 !== 0 && n % 5 !== 0 && n % 7 !== 0){
+        console.log(`Prime ${n}`)
+      
+    }else {
+        console.log(`Not a Prime number`)
+    }
+ }
+ console.log("N = 4:Prime Time =====================")
+// a number is prime if it is only divisble by 1 and itself 
+n = 14
+for ( i = 2; i <= n; i++){
+    if (n % i == 0){
+        console.log(`Prime ${n}`)
+        
+    } else if (n % i !== 0) {
+        console.log(`Not Prime number`)
+    }
+}
+
+
+console.log("N = 4:Prime Time =====================")
